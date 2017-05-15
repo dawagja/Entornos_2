@@ -9,7 +9,7 @@ public class Persona implements Serializable {
 	 * Uso de la clase Serializable, perteneciente a la clase java.io
 	 */
 
-	private String nombre;
+	private String nombrecitotoguapo;
 	
 	private String apellidos;
 	
@@ -17,7 +17,7 @@ public class Persona implements Serializable {
 	
 	public Persona(String n, String a, int anno, int mes, int dia){
 		
-		nombre=n;
+		nombrecitotoguapo=n;
 		
 		apellidos=a;
 		
@@ -28,8 +28,8 @@ public class Persona implements Serializable {
 	}
 		
 	
-	public String getNombre() {
-		return nombre;
+	public String getnombrecitotoguapo() {
+		return nombrecitotoguapo;
 	}
 
 	public String getApellidos() {
@@ -44,7 +44,7 @@ public class Persona implements Serializable {
 	
 	public String toString(){
 		
-		return "El Nombre y sus Apellidos es " + nombre + " " + apellidos + ", su fecha de Nacimiento " + fechaNacimiento;
+		return "El nombrecitotoguapo y sus Apellidos es " + nombrecitotoguapo + " " + apellidos + ", su fecha de Nacimiento " + fechaNacimiento;
 		
 	}
 
